@@ -1,0 +1,15 @@
+{
+    "loan_id": "oeKfuh",
+    "agent_id": "2642",
+    "client_id": 44802,
+    "supplier_id": 417,
+    "amount": 3739.41,
+    "loan_datetime": "2023-01-12 03: 51: 37",
+    "previous_loan_datetime": "None",
+    "agent_default_loans_count": 0,
+    "client_due_loan_count": 1,
+    "amount_overdue": 8,
+    "merchant_signed_collateral": false,
+    "collateral_amount": 0,
+    "merchant_supplier_whitelisted": true
+}

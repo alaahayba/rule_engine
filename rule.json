@@ -1,0 +1,37 @@
+{
+    "rules": [
+        {
+            "and": [
+                {
+                    "key": "supplier_id",
+                    "operation": "==",
+                    "value": 417
+                },
+                {
+                    "key": "amount_overdue",
+                    "operation": ">",
+                    "value": 5
+                }
+                
+            ]
+        },
+        {
+            "or": [
+                {
+                    "key": "supplier_id",
+                    "operation": "==",
+                    "value": 416
+                },
+                {
+                    "key": "amount_overdue",
+                    "operation": ">",
+                    "value": 10
+                }
+            ]
+        }
+    ],
+    "actions": {
+        "true": "$acceptHandler",
+        "false": "reject"
+    }
+}
