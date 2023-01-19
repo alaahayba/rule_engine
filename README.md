@@ -1,2 +1,2 @@
-# rule_engine
+# rule-engine
 simple rule engine
