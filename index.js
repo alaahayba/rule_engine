@@ -1,7 +1,7 @@
-const data = require('./data.json')
-const { rules, actions } = require('./rule.json')
-const RuleEngine = require('./RuleEngine')
-const Logger = require('./Logger')
+const data = require('./data/data.json')
+const { rules, actions } = require('./data/rule.json')
+const RuleEngine = require('./src//RuleEngine')
+const Logger = require('./src/Logger')
 
 console.log(Logger)
 new RuleEngine(rules, new Logger())
